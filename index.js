@@ -37,6 +37,10 @@ window.addEventListener("load", function() {
  */
 
 function revertToCourier(document) {
+  if (!document) {
+    return;
+  }
+
   setFontFamily(document.querySelector('.blob-line-code pre'));
   setFontFamily(document.querySelector('.blob-line-nums'));
 }
