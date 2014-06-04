@@ -30,6 +30,12 @@ window.addEventListener("load", function() {
   revertToCourier(document);
 }, true);
 
+/*
+ * revert to courier
+ *
+ * @param {Document} document
+ */
+
 function revertToCourier(document) {
   setFontFamily(document.querySelector('.blob-line-code pre'));
   setFontFamily(document.querySelector('.blob-line-nums'));
