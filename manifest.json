@@ -4,10 +4,13 @@
   "description": "Revert github code font back to Courier",
   "version": "0.0.1",
   "content_scripts": [{
+    "run_at": "document_end",
     "matches": [
       "http://*.github.com/**/*", 
       "https://*.github.com/**/*"
     ],
-    "js": ["index.js"]
+    "css": [
+      "index.css"
+    ]
   }]
 }
