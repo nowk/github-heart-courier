@@ -1,4 +1,4 @@
-.blob-line-code, .diff-line-code, .blob-line-num, .line-data, .file-data pre, 
+.blob-code, .blob-num, .blob-line-code, .diff-line-code, .blob-line-num, .line-data, .file-data pre, 
 .file-data .line-numbers {
   font-family: Courier, Monaco, monospace !important;
   /* tab-size: 2; */
